@@ -61,13 +61,22 @@ Modify it to pass a value prop to Square.
 
 This is the code now: https://codepen.io/gaearon/pen/gWWQPY?editors=0010
 
+### Step 4
 
 Now we need to change what happens when a square is clicked. The Board component now stores which squares are filled, which means we need some way for Square to update the state of Board. Since component state is considered private, we can’t update Board’s state directly from Square.
-
 
 The usual pattern here is pass down a function from Board to Square that gets called when the square is clicked. Change renderSquare in Board again so that it reads:
 
 ![alt text](step3c.png)
+
+Now we’re passing down two props from Board to Square: value and onClick. The latter is a function that Square can call. Let’s make the following changes to Square:
+
+- Replace this.state.value with this.props.value in Square’s render.
+
+- Replace this.setState() with this.props.onClick() in Square’s render.
+
+- Delete constructor definition from Square because it doesn’t have state anymore.
+
 
 
 ====================================
