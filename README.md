@@ -33,15 +33,7 @@ https://codepen.io/gaearon/pen/aWWQOG?editors=0010
 
 Let’s make the Square component fill in an “X” when you click it. Try changing the button tag returned in the render() function of the Square like this:
 
-class Square extends React.Component {
-  render() {
-    return (
-      <button className="square" onClick={() => alert('click')}>
-        {this.props.value}
-      </button>
-    );
-  }
-}
+![alt text](step2.png)
 
 
 
