@@ -43,7 +43,10 @@ Now change the Square render method to display the value from the current state,
 
 ![alt text](step2b.png)
 
-Debug it and see what's happening!!!
+#### Debug it and see what's happening!!!
+
+### Step 3
+
 
 ====================================
 
