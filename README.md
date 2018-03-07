@@ -110,3 +110,10 @@ Now X and O take turns. Next, change the “status” text in Board’s render s
 ![alt text](step5b.png)
 
 https://codepen.io/gaearon/pen/KmmrBy?editors=0010
+
+
+### Step 6
+
+How to declare the winner. We need a helper function for that
+
+![alt text](step6.png)
