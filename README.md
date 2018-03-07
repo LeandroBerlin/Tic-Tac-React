@@ -2,6 +2,10 @@
 
 An implementation of the Tic-Tac-Toc game with React
 
++ Clone the repository or create the React app
+
++ Review the starting code
+
 Starting code: https://codepen.io/gaearon/pen/oWWQNa?editors=0010
 
 
