@@ -79,7 +79,10 @@ Now we’re passing down two props from Board to Square: value and onClick. The 
 
 -> Delete constructor definition from Square because it doesn’t have state anymore.
 
+![alt text](step4.png)
+
 BUT: Try clicking a square – you should get an error because we haven’t defined handleClick yet. 
 
 -> Add it to the Board class.
+
 
