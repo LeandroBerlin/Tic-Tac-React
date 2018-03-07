@@ -35,9 +35,13 @@ Let’s make the Square component fill in an “X” when you click it. Try chan
 
 ![alt text](step2.png)
 
+Initialize the state:
 
+![alt text](step2a.png)
 
+Now change the Square render method to display the value from the current state, and to toggle it on click:
 
+![alt text](step2b.png)
 
 
 ====================================
