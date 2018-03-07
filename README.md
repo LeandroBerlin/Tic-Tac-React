@@ -59,6 +59,9 @@ Modify it to pass a value prop to Square.
 
 ![alt text](step3b.png)
 
+This is the code now: https://codepen.io/gaearon/pen/gWWQPY?editors=0010
+
+
 Now we need to change what happens when a square is clicked. The Board component now stores which squares are filled, which means we need some way for Square to update the state of Board. Since component state is considered private, we can’t update Board’s state directly from Square.
 
 
