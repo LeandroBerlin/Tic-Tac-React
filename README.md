@@ -106,3 +106,7 @@ Each time we move we shall toggle xIsNext by flipping the boolean value and savi
 ![alt text](step5.png)
 
 Now X and O take turns. Next, change the “status” text in Board’s render so that it also displays who is next:
+
+![alt text](step5b.png)
+
+https://codepen.io/gaearon/pen/KmmrBy?editors=0010
