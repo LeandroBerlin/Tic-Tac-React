@@ -69,13 +69,15 @@ The usual pattern here is pass down a function from Board to Square that gets ca
 
 ![alt text](step3c.png)
 
-Now we’re passing down two props from Board to Square: value and onClick. The latter is a function that Square can call. Let’s make the following changes to Square:
+Now we’re passing down two props from Board to Square: value and onClick. The latter is a function that Square can call. 
 
-- Replace this.state.value with this.props.value in Square’s render.
++ Let’s make the following changes to Square:
 
-- Replace this.setState() with this.props.onClick() in Square’s render.
+-> Replace this.state.value with this.props.value in Square’s render.
 
-- Delete constructor definition from Square because it doesn’t have state anymore.
+-> Replace this.setState() with this.props.onClick() in Square’s render.
+
+-> Delete constructor definition from Square because it doesn’t have state anymore.
 
 
 
