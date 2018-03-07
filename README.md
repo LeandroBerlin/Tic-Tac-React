@@ -88,3 +88,10 @@ BUT: Try clicking a square – you should get an error because we haven’t defi
 ![alt text](step4a.png)
 
 Updated code: https://codepen.io/gaearon/pen/ybbQJX?editors=0010
+
+### BONUS!
+
+We’ve removed the constructor in Square and in fact, React supports a simpler syntax called functional components for component types like Square that only consist of a render method. Rather than define a class extending React.Component, simply write a function that takes props and returns what should be rendered.
+
+
+![alt text](step4b.png)
