@@ -85,4 +85,6 @@ BUT: Try clicking a square – you should get an error because we haven’t defi
 
 -> Add it to the Board class.
 
+![alt text](step4a.png)
 
+Updated code: https://codepen.io/gaearon/pen/ybbQJX?editors=0010
