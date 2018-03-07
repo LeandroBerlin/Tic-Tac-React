@@ -20,6 +20,49 @@ Expected result:
 
 Solution:
 
+In Board’s renderSquare method, change the code to pass a value prop to the Square:
+
+class Board extends React.Component {
+  renderSquare(i) {
+    return <Square value={i} />;
+  }
+
+...
+
+Then change Square’s render method to show that value by replacing TODO with {this.props.value}:
+
+class Square extends React.Component {
+  render() {
+    return (
+      <button className="square">
+        {this.props.value}
+      </button>
+    );
+  }
+}
+
+Updated code:
+https://codepen.io/gaearon/pen/aWWQOG?editors=0010
+
+
+### Step 2
+
+Let’s make the Square component fill in an “X” when you click it. Try changing the button tag returned in the render() function of the Square like this:
+
+class Square extends React.Component {
+  render() {
+    return (
+      <button className="square" onClick={() => alert('click')}>
+        {this.props.value}
+      </button>
+    );
+  }
+}
+
+
+
+
+
 
 ====================================
 
