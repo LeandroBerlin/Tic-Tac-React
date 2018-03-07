@@ -103,3 +103,6 @@ At the moment in our game only X (or "player one") can play. Let’s fix that.
 
 Each time we move we shall toggle xIsNext by flipping the boolean value and saving the state.
 
+![alt text](step5.png)
+
+Now X and O take turns. Next, change the “status” text in Board’s render so that it also displays who is next:
