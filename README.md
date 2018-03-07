@@ -23,8 +23,11 @@ Solution:
 In Board’s renderSquare method, change the code to pass a value prop to the Square:
 
 class Board extends React.Component {
+
   renderSquare(i) {
+
     return <Square value={i} />;
+
   }
 
 ...
@@ -33,11 +36,17 @@ Then change Square’s render method to show that value by replacing TODO with {
 
 class Square extends React.Component {
   render() {
+
     return (
+
       <button className="square">
+
         {this.props.value}
+
       </button>
+
     );
+
   }
 }
 
