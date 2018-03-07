@@ -47,6 +47,25 @@ Now change the Square render method to display the value from the current state,
 
 ### Step 3
 
+Add a constructor to the Board and set its initial state to contain an array with 9 nulls, corresponding to the 9 squares:
+
+![alt text](step3.png)
+
+We’ll fill it in later so that a board looks something like
+
+![alt text](step3a.png)
+
+Modify it to pass a value prop to Square.
+
+![alt text](step3b.png)
+
+Now we need to change what happens when a square is clicked. The Board component now stores which squares are filled, which means we need some way for Square to update the state of Board. Since component state is considered private, we can’t update Board’s state directly from Square.
+
+
+The usual pattern here is pass down a function from Board to Square that gets called when the square is clicked. Change renderSquare in Board again so that it reads:
+
+![alt text](step3c.png)
+
 
 ====================================
 
