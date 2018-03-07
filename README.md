@@ -18,7 +18,7 @@ Expected result:
 
 ![alt text](result_step1.png)
 
-Solution:
+#### Solution:
 
 In Board’s renderSquare method, change the code to pass a value prop to the Square.
 Then change Square’s render method to show that value by replacing TODO with {this.props.value}:
@@ -43,6 +43,7 @@ Now change the Square render method to display the value from the current state,
 
 ![alt text](step2b.png)
 
+Debug it and see what's happening!!!
 
 ====================================
 
