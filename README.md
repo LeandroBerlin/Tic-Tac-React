@@ -8,6 +8,8 @@ An implementation of the Tic-Tac-Toc game with React
 
 Starting code: https://codepen.io/gaearon/pen/oWWQNa?editors=0010
 
++ Passing Data Through Props (Board -> Square)
+
 
 
 ====================================
